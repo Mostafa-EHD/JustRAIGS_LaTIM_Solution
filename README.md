@@ -58,4 +58,4 @@ The evaluation of Task 2 models based on Hamming loss.
 | Ensemble (Eva + Deit3 + ResNet50) | 336x336 / 384x384 / 800x800 | **0.239** |
 
 ## Checkpoints
-The checkpoints can be downloaded here: ![Download models weights]([task1_proposed_model.png](https://drive.google.com/drive/folders/1v-YCpaZmgtgkQ3SwJ6Xu2ubuBu0OkfWt))
+The checkpoints can be downloaded here: [Download models weights]([task1_proposed_model.png](https://drive.google.com/drive/folders/1v-YCpaZmgtgkQ3SwJ6Xu2ubuBu0OkfWt))
