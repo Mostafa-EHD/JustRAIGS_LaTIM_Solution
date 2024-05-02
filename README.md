@@ -24,7 +24,7 @@ The JustRAIGS challenge aimed to develop AI algorithms for glaucoma screening us
 
 ### Task 2: Justification Performance
 - **Dataset Utilization:** Focused on a subset of images labeled as referable glaucoma.
-- **Data Pre-processing:** Consistent with Task 1 with resizing to specified dimensions for each model.
+- **Data Pre-processing:** Resizing to specified dimensions for each model and data augmentation using Albumentation.
 - **Model Architecture:** Ensemble of Eva Large, Deit3, and ResNet50 models.
 - **Training Details:** Binary cross-entropy loss with AdamW optimizer and varied learning rates for different models.
 
@@ -56,3 +56,6 @@ The evaluation of Task 2 models based on Hamming loss.
 | Eva | 336x336 | 0.313 |
 | Ensemble (Eva + Deit3) | 336x336 / 384x384 | 0.253 |
 | Ensemble (Eva + Deit3 + ResNet50) | 336x336 / 384x384 / 800x800 | **0.239** |
+
+## Results
+The checkpoints can be downloaded here: ![Download models weights]([task1_proposed_model.png](https://drive.google.com/drive/folders/1v-YCpaZmgtgkQ3SwJ6Xu2ubuBu0OkfWt))
